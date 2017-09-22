@@ -9,19 +9,25 @@
   </head>
   <body>
     <div class="container">
-      <form id="formOne">
+      <div class="well">
+        <form id="formOne">
 
-        <div class="form-group">
-          <label for "userInput">Enter a number to play!</label>
-          <input id="userInput" class ="form-control" type="number" placeholder="Enter a number here">
+          <div class="form-group">
+            <label for "userInput">Play the ping-pong game!</label>
+            <input id="userInput" class ="form-control" type="number" placeholder="Enter a number here">
+          </div>
+
+        </button class="btn" type="submit">Play!</button>
+
+        </form>
+      </div>
+
+      <div class="well">
+        <div id="output">
+          <h3><span id="output2"></span></h3>
         </div>
-
-      </button class="btn" type="submit">Play!</button>
-
-      </form>
+      </div>
     </div>
-    <div id="output">
-      <h3><span id="output2"></span></h3>
-    </div>
+
   </body>
 </html>
