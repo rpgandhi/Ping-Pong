@@ -4,9 +4,9 @@
   padding-left: -5em;
 }
 
-#output {
+/*#output {
   display: none;
-}
+}*/
 
 /*body {
   background-color: grey;
@@ -29,4 +29,8 @@
 .well {
   opacity: 0.9;
   margin-right: 65em;
+}
+
+#output {
+  list-style: none;
 }
