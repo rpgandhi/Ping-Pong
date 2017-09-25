@@ -1,11 +1,32 @@
-/*.container {
+.container {
   margin-top: 5em;
-}*/
+  padding-right: 30em;
+  padding-left: -5em;
+}
 
-/*#output {
+#output {
   display: none;
-}*/
-/*
-body {
+}
+
+/*body {
   background-color: grey;
 }*/
+
+#background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+
+.well {
+  opacity: 0.9;
+  margin-right: 65em;
+}

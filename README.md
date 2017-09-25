@@ -24,7 +24,7 @@ A website created with JavaScript and HTML where a user can enter a number and g
 1. Navigate to to repository on GitHub: (link)
 2. Click the green "clone" button on the upper right side of the page.
 3. Open terminal and clone this repository.
-4. Navigate to the repository via command line and open with your favorite text editor (we use Atom).
+4. Navigate to the repository via command line and open with your favorite text   editor (we use Atom).
 5. View code or play around with the code and enjoy!
 6. Alternatively, to simply play the game click this link:
 

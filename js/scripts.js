@@ -22,9 +22,11 @@ $(document).ready(function() {
         // alert("end else working");
       }
     }
+    for(var i = 0; i < resultsArray.length; i++){
+   $("#output").append('<li>' + resultArray[i] + '</li>');
+ }
 
-    $("#output").text(resultsArray.join(" "));
-
+    // $("#output").text(resultsArray.join(" "));
 
   });
 });

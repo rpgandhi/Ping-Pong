@@ -41,30 +41,40 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-
     <title>Ping-pong Game</title>
   </head>
   <body>
-
-    <div class="jumbotron">
-      <h1>Ping-pong Game</h1>
+    <!-- <div class="container"> -->
+    <div id="header">
+      <div class="well">
+        <!-- <div class="jumbotron"> -->
+          <h1>Ping-pong Game</h1>
+        <!-- </div> -->
+      </div>
     </div>
 
-    <form id="inputForm">
-      <div class="container">
+    <div class="well">
+      <form id="inputForm">
 
         <div class="form-group">
-          <label for "numberInput">Enter a number to play!</label>
+          <label for "numberInput">The game begins...</label>
           <input id="numberInput" class="form-control" type="text" placeholder="Enter a number here">
         </div>
 
         <button class="btn" type="submit">Play!</button>
 
-        <div id="output">
+        <ul id="output">
+        </ul>
+
+        <!-- <div id="output">
+        </div> -->
+
+        <div id="background">
+          <img src="img/redhead.jpg" class="stretch">
         </div>
 
-      </div>
-    </form>
+      </form>
+    </div>
   </body>
 </html>
 
