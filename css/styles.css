@@ -48,3 +48,23 @@ h1 {
   margin-top: 20px;
   background-color: yellow;
 }
+
+#rules {
+  display:none;
+  color: white;
+}
+
+.rulesButton {
+  background-color: yellow;
+  display:block;
+}
+
+#position {
+    margin-top 20px;
+
+ }
+
+ .rulesButton:hover {
+   background-color: #ff0066;
+   color: white;
+ }
