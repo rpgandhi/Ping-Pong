@@ -2,15 +2,16 @@
   margin-top: 5em;
   padding-right: 30em;
   padding-left: -5em;
+  /*opacity: .50;*/
 }
 
 /*#output {
   display: none;
 }*/
 
-/*body {
-  background-color: grey;
-}*/
+body {
+  background-color: #ffffff;
+}
 
 #background {
     width: 100%;
@@ -29,8 +30,18 @@
 .well {
   opacity: 0.9;
   margin-right: 65em;
+  /*color: white;*/
 }
 
 #output {
   list-style: none;
+  color: white;
+}
+h1 {
+  color: #ff0066;
+  margin-left: 30px;
+}
+
+.form-group {
+  color: white;
 }
