@@ -1,26 +1,31 @@
+var resultsArray= [];
+
+function backEnd(input) {
+
+  for (var i = 1; i <= input; i ++) {
+
+    if ((i % 15)===0) {
+      resultsArray.push("ping-pong");
+    } else if ((i % 5)===0) {
+      resultsArray.push("pong");
+    } else if ((i % 3)===0) {
+      resultsArray.push("ping");
+    } else {
+      resultsArray.push(i);
+    }
+  };
+  return resultsArray;
+};
+
 $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
 
-    var input= $("input#numberInput").val();
-    var resultsArray= [""]
+    var input= parseInt($("input#numberInput").val());
+    var backEndReturn  = backEnd(input);
 
-    for (var i = 1; i <= input; i ++) {
-
-      if ((i % 15)===0) {
-        resultsArray.push("ping-pong");
-      } else if ((i % 5)===0) {
-        resultsArray.push("pong");
-      } else if ((i % 3)===0) {
-        resultsArray.push("ping");
-      } else {
-        resultsArray.push(i);
-      }
-    }
-
-    for(var i = 1; i < resultsArray.length; i++) {
-      $("#output").append('<li>' + resultsArray[i] + '</li>');
-    }
-
+    backEndReturn.forEach(function(number) {
+      $("#output").append('<li>' + number + '</li>');
+    });
   });
 });
